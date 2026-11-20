@@ -3,7 +3,7 @@ import numpy as np  # Used for numerical operations.
 from groq import Groq  # Connects to Groq LLM.
 from pypdf import PdfReader  # Reads PDF files.
 from sentence_transformers import SentenceTransformer  # Generates text embeddings.
-from pathlib import path
+from pathlib import Path
 
 # 1. LOAD PDF
 def load_pdf(pdf_path):
