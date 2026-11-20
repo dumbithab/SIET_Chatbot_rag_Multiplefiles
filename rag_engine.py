@@ -1,8 +1,8 @@
-import faiss  # Used for similarity search.
-import numpy as np  # Used for numerical operations.
-from groq import Groq  # Connects to Groq LLM.
+import faiss  
+import numpy as np  
+from groq import Groq  
 from pypdf import PdfReader  # Reads PDF files.
-from sentence_transformers import SentenceTransformer  # Generates text embeddings.
+from sentence_transformers import SentenceTransformer  
 from pathlib import Path
 
 # 1. LOAD PDF
