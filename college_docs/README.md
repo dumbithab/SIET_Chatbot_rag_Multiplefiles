@@ -1,1 +1,1 @@
-this foulder contain information about college
+this folder contain information about college
